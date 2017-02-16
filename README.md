@@ -1,9 +1,12 @@
-# Garveen/FastCgi/React
+# garveen/fastcgi-react
 
 Simply serve `fastcgi` with [reactphp](https://github.com/reactphp/socket)
 
-```php
+```bash
+composer require garveen/fastcgi-react
+```
 
+```php
 require 'vendor/autoload.php';
 
 $loop = React\EventLoop\Factory::create();
